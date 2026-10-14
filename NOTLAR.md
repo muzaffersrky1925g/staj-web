@@ -31,3 +31,9 @@
 - **Flex Container:** `display: flex;` özelliği ile bir kapsayıcı alan oluşturuldu.
 - **Yatay Dağılım:** `justify-content: space-around;` ile öğeler ana eksende eşit aralıklarla konumlandırıldı.
 - **Dikey Hizalama:** `align-items: center;` ile öğeler dikeyde ortalandı.
+
+## 04 - CSS Grid Düzeni
+
+- **Grid Kapsayıcı:** `display: grid;` özelliği ile iki boyutlu ızgara alanı oluşturuldu.
+- **Sütun Yapısı:** `grid-template-columns: repeat(3, 1fr);` ile eşit oranlı 3 sütunlu bir yapı kuruldu.
+- **Aralık Yönetimi:** `gap: 20px;` komutu ile ızgara elemanları arasına boşluk bırakıldı.
