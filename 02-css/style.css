@@ -77,6 +77,25 @@ h3 {
 /* ------------------------------------ */
 /* Flexbox Düzen Stilleri               */
 /* ------------------------------------ */
+:root {
+  --renk-ana: #2563eb;
+  --renk-koyu: #111827;
+  --renk-acik: #e0e7ff;
+  --bosluk: 1rem;
+  --kose: 8px;
+}
+.ust {
+  background: var(--renk-koyu);
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.kart {
+  background: var(--renk-acik);
+  border-radius: var(--kose);
+}
 
 .flex-konteyner {
   display: flex; /* Esnek düzeni aktif eder */
