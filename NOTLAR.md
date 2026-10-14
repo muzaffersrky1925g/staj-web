@@ -42,3 +42,9 @@
 
 - **Viewport Meta Etiketi:** `<meta name="viewport" content="width=device-width, initial-scale=1.0">` ile mobil uyumluluğun temeli atıldı.
 - **Medya Sorgusu (Media Query):** `@media (max-width: 768px)` kuralı ile belirli ekran boyutlarının altında (tablet/telefon) stil değişiklikleri yapılması sağlandı.
+
+## 06 - Proje: Mini Landing Page (Karşılama Sayfası)
+
+- **Sayfa Yapısı:** HTML semantik etiketleri (`header`, `section`, `nav`) ve Flexbox kullanılarak modern bir üst bilgi (header) ve karşılama (hero) alanı tasarlandı.
+- **Global Sıfırlama:** `* { margin: 0; padding: 0; box-sizing: border-box; }` ile tarayıcı varsayılan boşlukları sıfırlandı.
+- **Görsel Geçişler:** CSS Gradients (`linear-gradient`) ve buton etkileşimleri (`hover`) ile kullanıcı deneyimi zenginleştirildi.
