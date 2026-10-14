@@ -48,3 +48,9 @@
 - **Sayfa Yapısı:** HTML semantik etiketleri (`header`, `section`, `nav`) ve Flexbox kullanılarak modern bir üst bilgi (header) ve karşılama (hero) alanı tasarlandı.
 - **Global Sıfırlama:** `* { margin: 0; padding: 0; box-sizing: border-box; }` ile tarayıcı varsayılan boşlukları sıfırlandı.
 - **Görsel Geçişler:** CSS Gradients (`linear-gradient`) ve buton etkileşimleri (`hover`) ile kullanıcı deneyimi zenginleştirildi.
+
+## 07 - JavaScript Temelleri
+
+- **Bağlantı:** `<script src="script.js"></script>` etiketi ile JavaScript dosyası HTML'in sonuna eklendi.
+- **Seçiciler ve Olaylar:** `document.getElementById()` ile HTML elementleri seçildi ve `addEventListener("click", ...)` ile etkileşim (event) kazandırıldı.
+- **Dinamik İçerik:** `textContent` ve stil özellikleri kullanılarak sayfa üzerinde dinamik değişiklikler yapıldı.
