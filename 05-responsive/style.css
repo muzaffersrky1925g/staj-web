@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Varsayılan (Büyük Ekran / Masaüstü Stili) */
+.responsive-kutu {
+  background-color: #3498db;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Medya Sorgusu: Ekran genişliği 768 pikselden küçükse (Tablet / Telefon) */
+@media (max-width: 768px) {
+  .responsive-kutu {
+    background-color: #e74c3c; /* Küçük ekranda renk kırmızıya döner */
+    font-size: 16px;
+    padding: 20px;
+  }
+}
