@@ -19,3 +19,9 @@
 - **Anlamsal (Semantic) Etiketler:** `<header>`, `<main>`, `<section>`, `<nav>`, `<footer>` gibi etiketler sayfa yapısını düzenli ve erişilebilir kılar.
 - **Formlar:** `<form>`, `<input>`, `<label>` kullanarak kullanıcıdan veri alma yapıları öğrenildi.
 - **Tablolar:** `<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>` etiketleri ile veri listeleme yapıldı.
+
+## 02 - CSS Temelleri ve Kutu Modeli
+
+- **Harici CSS Bağlantısı:** `<link rel="stylesheet" href="style.css">` etiketiyle HTML ve CSS dosyaları birbirine bağlandı.
+- **Seçiciler:** Etiket (Element), Sınıf (`.class`) ve ID (`#id`) seçicilerinin kullanımı öğrenildi.
+- **Kutu Modeli (Box Model):** Her elemanın birer kutu olduğu; `content`, `padding` (iç boşluk), `border` (kenarlık) ve `margin` (dış boşluk) katmanlarından oluştuğu kavrandı.
