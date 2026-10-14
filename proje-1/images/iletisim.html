@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim | Kişisel Portfolyo</title>
+  </head>
+  <body>
+    <header>
+      <h1>İletişim</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="hakkimda.html">Hakkımda</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Bana Ulaşın</h2>
+        <p>
+          Görüş, öneri veya iş birliği talepleriniz için aşağıdaki formu
+          doldurabilirsiniz.
+        </p>
+
+        <form>
+          <p>
+            <label for="adsoyad">Adınız Soyadınız:</label><br />
+            <input
+              type="text"
+              id="adsoyad"
+              name="adsoyad"
+              placeholder="Örn: Ahmet Yılmaz"
+              required
+            />
+          </p>
+          <p>
+            <label for="eposta">E-posta Adresiniz:</label><br />
+            <input
+              type="email"
+              id="eposta"
+              name="eposta"
+              placeholder="ahmet@ornek.com"
+              required
+            />
+          </p>
+          <p>
+            <label for="konu">Konu:</label><br />
+            <select id="konu" name="konu">
+              <option value="genel">Genel Soru</option>
+              <option value="staj">Staj / Proje Hakkında</option>
+              <option value="geribildirim">Geri Bildirim</option>
+            </select>
+          </p>
+          <p>
+            <label for="mesaj">Mesajınız:</label><br />
+            <textarea
+              id="mesaj"
+              name="mesaj"
+              rows="5"
+              cols="40"
+              placeholder="Mesajınızı buraya yazın..."
+              required
+            ></textarea>
+          </p>
+          <button type="submit">Gönder</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Muzaffer - Tüm Hakları Saklıdır.</p>
+    </footer>
+  </body>
+</html>
