@@ -34,3 +34,22 @@
 - Git versiyon kontrol sistemi ile düzenli `commit` ve `push` akışı.
 - Standart ana dizin (`01-html`, `02-css`, `03-js`, `proje-1`) repository yönetimi.
 - W3C HTML5 standartlarına ve erişilebilirlik kurallarına uygun kod yazma disiplini.
+
+## 2. Ay: CSS (Cascading Style Sheets) Modülü
+
+- **Tarih:** Ekim 2026
+- **Çalışma Ortamı:** VS Code, Git & GitHub, Firefox
+
+### 📂 Tamamlanan Modüller ve Dosyalar
+
+1. **`02-css` Modülü:**
+   - `secici.html` ve `style.css` (Etiket, Class `.`, ID `#` seçicileri ve temel stil tanımları)
+   - `kutu.html` (Box Model yapısı: Content, Padding, Border, Margin ve `box-sizing: border-box`)
+   - `flex.html` (Flexbox ile esnek yerleşim, `display: flex`, `justify-content`, `align-items`, `gap`)
+   - `responsive.html` (Media Queries `@media` ile ekran boyutuna göre dinamik tasarım değişimi)
+
+### 🛠️ Kazanılan Teknik Beceriler
+
+- Harici CSS dosyalarını HTML projelerine bağlama ve seçici önceliklerini yönetme.
+- Sayfa yerleşimlerini (layout) modern Flexbox mimarisiyle kurma.
+- Farklı cihaz boyutlarına (masaüstü, tablet, mobil) uyumlu duyarlı (responsive) tasarımlar geliştirme.
