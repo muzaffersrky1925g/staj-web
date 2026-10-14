@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.sayfa {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "ust ust"
+    "yan icerik"
+    "alt alt";
+  min-height: 100vh;
+}
+.alan-ust {
+  grid-area: ust;
+  background: #1e3a8a;
+  color: white;
+  padding: 1rem;
+}
+.alan-yan {
+  grid-area: yan;
+  background: #e5e7eb;
+  padding: 1rem;
+}
+.alan-icerik {
+  grid-area: icerik;
+  padding: 1rem;
+}
+.alan-alt {
+  grid-area: alt;
+  background: #111827;
+  color: white;
+  padding: 1rem;
+}
+.galeri {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+.foto {
+  aspect-ratio: 1 / 1;
+  display: grid;
+  place-items: center; /* tam ortala */
+  background: #c7d2fe;
+  border-radius: 8px;
+  font-size: 2rem;
+}
