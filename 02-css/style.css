@@ -25,3 +25,11 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+/* Kutu Modeli Örneği */
+.kutu-ornegi {
+  background-color: #ffffff;
+  border: 2px solid #e74c3c;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 8px;
+}
