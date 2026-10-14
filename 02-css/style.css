@@ -74,3 +74,27 @@ h3 {
   background-color: #dfe6e9;
   border-color: #b2bec3;
 }
+/* ------------------------------------ */
+/* Flexbox Düzen Stilleri               */
+/* ------------------------------------ */
+
+.flex-konteyner {
+  display: flex; /* Esnek düzeni aktif eder */
+  flex-direction: row; /* Elemanları yan yana dizer (varsayılan) */
+  justify-content: space-between; /* Kartlar arasına eşit boşluk dağıtır */
+  align-items: center; /* Dikeyde ortalar */
+  gap: 20px; /* Elemanlar arasındaki net mesafe */
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.flex-kart {
+  flex: 1; /* Tüm kartların eşit genişlikte uzamasını sağlar */
+  background-color: #ffffff;
+  border: 2px solid #2ecc71;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
