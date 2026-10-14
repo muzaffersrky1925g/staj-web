@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Mobil cihazlarda doğru ölçekleme için viewport etiketi ŞARTTIR -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Tasarım ve Media Queries</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Duyarlı (Responsive) Tasarım Örneği</h1>
+      <p class="cihaz-bilgi">
+        Ekran boyutunuzu değiştirerek kartların ve arka planın değişimini
+        gözlemleyin.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <div class="responsive-duzen">
+          <div class="res-kart">
+            <h3>1. Eleman</h3>
+            <p>Masaüstünde yan yana, mobilde alt alta dizilir.</p>
+          </div>
+          <div class="res-kart">
+            <h3>2. Eleman</h3>
+            <p>Media query kuralları genişliğe göre tetiklenir.</p>
+          </div>
+          <div class="res-kart">
+            <h3>3. Eleman</h3>
+            <p>Esnek genişlikler % veya flex ile verilir.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
