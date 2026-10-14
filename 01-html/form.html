@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Formu</title>
+  </head>
+  <body>
+    <h1>Kulüp Kayıt Formu</h1>
+    <form>
+      <p>
+        <label for="adsoyad">Ad Soyad</label><br />
+        <input
+          type="text"
+          id="adsoyad"
+          name="adsoyad"
+          placeholder="Ör. Ayşe Yılmaz"
+          required
+        />
+      </p>
+      <p>
+        <label for="eposta">E-posta</label><br />
+        <input type="email" id="eposta" name="eposta" required />
+      </p>
+      <p>
+        <label for="sifre">Şifre</label><br />
+        <input type="password" id="sifre" name="sifre" minlength="6" required />
+      </p>
+      <button type="submit">Kayıt Ol</button>
+    </form>
+  </body>
+</html>
