@@ -171,3 +171,18 @@ h3 {
     background-color: #8e44ad;
   }
 }
+.flex-kart {
+    position: relative; /* İçindeki absolute elemana referans olması için */
+}
+
+.yeni-etiket {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 2px 8px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
