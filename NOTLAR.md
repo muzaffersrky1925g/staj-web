@@ -53,3 +53,18 @@
 - Harici CSS dosyalarını HTML projelerine bağlama ve seçici önceliklerini yönetme.
 - Sayfa yerleşimlerini (layout) modern Flexbox mimarisiyle kurma.
 - Farklı cihaz boyutlarına (masaüstü, tablet, mobil) uyumlu duyarlı (responsive) tasarımlar geliştirme.
+
+## Proje-1 (Ay Sonu Projesi) - Tamamlandı
+
+- **CSS Mimarisi ve Bağlantısı:** `proje-1/css/style.css` dosyası oluşturuldu ve tüm HTML sayfalarına (`index.html`, `hakkimda.html`, `iletisim.html`) `<link>` etiketiyle bağlandı.
+- **Global Stiller ve Değişkenler:** `:root` yapısı ile renk paleti ve global değişkenler tanımlandı; `box-sizing: border-box` ve `body` tipografi ayarları yapıldı.
+- **Header ve Navigasyon:**
+  - `sticky` pozisyonlandırma ile yapışkan header oluşturuldu.
+  - Flexbox kullanılarak menü yatay hizalandı ve sayfa geçişleri için `.aktif` sınıfı entegre edildi.
+- **Ana Sayfa (Hero Section):** Karşılama alanı Flexbox ile yan yana (görsel ve metin) düzenlendi, görsellere gölge ve köşe yuvarlaklığı (`border-radius`) verildi.
+- **Hakkımda Sayfası:**
+  - Hobi kartları için `grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))` kullanılarak esnek (responsive) bir Grid yapısı kuruldu.
+  - Ders programı/tablolar için şık arka plan renkleri, satır çizgileri ve zebra (`nth-child`) efektleri uygulandı.
+- **İletişim Sayfası:** İletişim formu elemanları (`input`, `textarea`, `button`) stilize edildi ve `:focus` geçiş efektleri eklendi.
+- **Mobil Uyumluluk (Responsive):** `@media (max-width: 768px)` kırılma noktası kullanılarak mobil cihazlar için dikey yerleşim düzenleri (`flex-direction: column`) ve kaydırılabilir tablolar sağlandı.
+- **Temizlik ve Versiyon Kontrolü:** HTML dosyalarındaki eski nitelikler temizlendi; yapılan tüm geliştirmeler Git ile `commit` edilerek GitHub'a `push` edildi.
