@@ -1,0 +1,27 @@
+/* Etiket Seçici (Element Selector) */
+body {
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Sınıf Seçici (Class Selector) */
+.ana-baslik {
+  color: #2c3e50;
+  text-align: center;
+}
+
+.aciklama {
+  color: #555;
+  font-size: 18px;
+}
+
+/* ID Seçici (ID Selector) */
+#buton {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
