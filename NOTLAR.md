@@ -25,3 +25,9 @@
 - **Harici CSS Bağlantısı:** `<link rel="stylesheet" href="style.css">` etiketiyle HTML ve CSS dosyaları birbirine bağlandı.
 - **Seçiciler:** Etiket (Element), Sınıf (`.class`) ve ID (`#id`) seçicilerinin kullanımı öğrenildi.
 - **Kutu Modeli (Box Model):** Her elemanın birer kutu olduğu; `content`, `padding` (iç boşluk), `border` (kenarlık) ve `margin` (dış boşluk) katmanlarından oluştuğu kavrandı.
+
+## 03 - CSS Flexbox Düzeni
+
+- **Flex Container:** `display: flex;` özelliği ile bir kapsayıcı alan oluşturuldu.
+- **Yatay Dağılım:** `justify-content: space-around;` ile öğeler ana eksende eşit aralıklarla konumlandırıldı.
+- **Dikey Hizalama:** `align-items: center;` ile öğeler dikeyde ortalandı.
