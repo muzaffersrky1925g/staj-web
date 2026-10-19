@@ -90,3 +90,15 @@
 3. **`sifreGucluMu(sifre)`:** Şifrenin uzunluğunu (`sifre.length >= 8`) ve içinde rakam olup olmadığını (`/[0-9]/.test(sifre)`) kontrol ederek `true`/`false` döndüren fonksiyon.
 4. **`tersCevir(metin)`:** Klasik `for` döngüsü yardımıyla kelimenin son harfinden başa doğru giderek metni ters çeviren fonksiyon.
 5. **`faktoriyel(n)`:** Bir sayının faktöriyelini döngü kullanarak (`sonuc *= i`) hesaplayan fonksiyon.
+
+### 📦 4. Görev: Diziler (Arrays) ve Nesneler (Objects) (`dizi.js`)
+
+- **Diziler (Arrays):** Birden fazla veriyi liste halinde tutma (`['Elma', 'Armut']`), `0` tabanlı indeksleme ve `.push()` ile eleman ekleme.
+- **Nesneler (Objects):** Key-value (anahtar-değer) mantığıyla verileri saklama (`ogrenci.ad` veya `ogrenci["yas"]`).
+- **Modern Dizi Metotları:**
+  - `map()`: Dizideki her elemanı dönüştürme.
+  - `filter()`: Belirli bir koşula uyan elemanları filtreleme.
+- **Görev 4 Alıştırmaları:**
+  1. **`urunleriYazdir(urunler)`:** `for...of` döngüsü ile dizi elemanlarını konsola alt alta yazdırma.
+  2. **`enBuyukFiyat(fiyatlar)`:** `Math.max()` ve **Spread Operatörü (`...`)** kullanarak sayısal dizideki en büyük değeri bulma.
+  3. **`kullaniciBilgi(kullanici)`:** Nesne parametresi alarak Template Literals ile biçimlendirilmiş bir cümle döndürme.
