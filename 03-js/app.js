@@ -1,0 +1,16 @@
+console.log("Merhaba JavaScript!");
+const ad = "Ayşe";
+const dogumYili = 2009;
+let puan = 0;
+puan = puan + 10;
+puan += 5;
+console.log(ad, dogumYili, puan);
+const metin = "Kayseri";
+const sayi = 42;
+const ondalik = 3.14;
+const dogruMu = true;
+let bos = null;
+let tanimsiz;
+console.log(typeof metin, typeof sayi, typeof dogruMu, typeof tanimsiz);
+const yas = 2026 - dogumYili;
+console.log(`Benim adım ${ad}, ${yas} yaşındayım.`);
