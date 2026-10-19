@@ -68,3 +68,25 @@
 - **İletişim Sayfası:** İletişim formu elemanları (`input`, `textarea`, `button`) stilize edildi ve `:focus` geçiş efektleri eklendi.
 - **Mobil Uyumluluk (Responsive):** `@media (max-width: 768px)` kırılma noktası kullanılarak mobil cihazlar için dikey yerleşim düzenleri (`flex-direction: column`) ve kaydırılabilir tablolar sağlandı.
 - **Temizlik ve Versiyon Kontrolü:** HTML dosyalarındaki eski nitelikler temizlendi; yapılan tüm geliştirmeler Git ile `commit` edilerek GitHub'a `push` edildi.
+
+## 📌 Ay 3 — JavaScript Temelleri (Güncellemeler)
+
+### 🚀 1. Arayüz ve Kullanım Deneyimi
+
+- `index.html` dosyası şık bir koyu tema (dark mode) tasarımıyla güncellendi.
+- Sayfayı açan kişilerin kod çıktılarını görebilmesi için konsolu (`F12` / Sağ tık -> Console) açması gerektiğini belirten rehber kart eklendi.
+
+### 🛠️ 2. Görev 3: Fonksiyonlar (`fonksiyon.js`)
+
+- **Klasik Fonksiyonlar:** `function ad(parametre) { return ... }` yapısı.
+- **Default Parametreler:** Fonksiyona değer gönderilmediğinde varsayılan değer atama (`oran = 0.2`).
+- **Arrow Functions (Ok Fonksiyonları):** `const fonksiyonAdi = (param) => { ... }` yazım biçimi (özellikle React için temel oluşturur).
+- **Callback Fonksiyonlar:** Başka bir fonksiyona parametre olarak fonksiyon gönderme mantığı.
+
+### 📝 3. Görev 3 Alıştırmaları ve Mantıkları
+
+1. **`notDegerlendir(puan)`:** Girilen puana göre (`85+`, `70+`, `50+`) `if-else` yapılarıyla harf/durum (`Pekiyi`, `İyi`, `Geçer`, `Kaldı`) döndüren fonksiyon.
+2. **`ortalama(a, b, c)`:** Gönderilen üç sayının ortalamasını hesaplayıp `toFixed(2)` metodu ile virgülden sonra 2 hane hassasiyetle döndüren fonksiyon.
+3. **`sifreGucluMu(sifre)`:** Şifrenin uzunluğunu (`sifre.length >= 8`) ve içinde rakam olup olmadığını (`/[0-9]/.test(sifre)`) kontrol ederek `true`/`false` döndüren fonksiyon.
+4. **`tersCevir(metin)`:** Klasik `for` döngüsü yardımıyla kelimenin son harfinden başa doğru giderek metni ters çeviren fonksiyon.
+5. **`faktoriyel(n)`:** Bir sayının faktöriyelini döngü kullanarak (`sonuc *= i`) hesaplayan fonksiyon.
