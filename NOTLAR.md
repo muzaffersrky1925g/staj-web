@@ -102,3 +102,15 @@
   1. **`urunleriYazdir(urunler)`:** `for...of` döngüsü ile dizi elemanlarını konsola alt alta yazdırma.
   2. **`enBuyukFiyat(fiyatlar)`:** `Math.max()` ve **Spread Operatörü (`...`)** kullanarak sayısal dizideki en büyük değeri bulma.
   3. **`kullaniciBilgi(kullanici)`:** Nesne parametresi alarak Template Literals ile biçimlendirilmiş bir cümle döndürme.
+
+### 🌐 5. Görev: DOM Manipülasyonu ve Olaylar (Events) (`dom.js`)
+
+- **DOM (Document Object Model):** JavaScript ile HTML elementlerine erişme ve onları dinamik olarak değiştirme yapısı.
+- **Element Seçimi:**
+  - `document.querySelector("h1")`: Etiket adı veya CSS seçicisi ile ilk eşleşen elementi yakalama.
+  - `document.getElementById("idAdi")`: ID değerine göre elementi doğrudan seçme.
+- **İçerik ve Stil Değiştirme:**
+  - `element.innerText`: Elementin metin içeriğini okuma veya değiştirme.
+  - `element.style.color`: JavaScript üzerinden CSS stillerine müdahale etme.
+- **Olay Dinleyicileri (Event Listeners):**
+  - `element.addEventListener("click", () => { ... })`: Kullanıcının tıklama gibi etkileşimlerini dinleyip fonksiyon tetikleme.
