@@ -47,16 +47,30 @@
       }
     </style>
     <!-- Script dosyanı buraya bağlıyoruz (Hangi JS dosyasındaysan adını ona göre ayarlayabilirsin) -->
-    <script src="dizi.js" defer></script>
+    <script src="dom.js" defer></script>
   </head>
   <body>
     <div class="bilgi-karti">
-      <h1>🚀 JavaScript Çalışma Alanı</h1>
+      <h1 id="baslik">🚀 JavaScript Çalışma Alanı</h1>
       <p>
         Bu sayfadaki kodlar arka planda çalışmaktadır. Sonuçları, hataları ve
         alıştırma çıktılarını görmek için klavyeden <kbd>F12</kbd> tuşuna basın
         ve <strong>Console (Konsol)</strong> sekmesini açın.
       </p>
+      <button
+        id="renkDegistirBtn"
+        style="
+          padding: 10px 20px;
+          background: #38bdf8;
+          border: none;
+          border-radius: 8px;
+          font-weight: bold;
+          cursor: pointer;
+          margin-top: 15px;
+        "
+      >
+        Rengi Değiştir
+      </button>
     </div>
   </body>
 </html>
