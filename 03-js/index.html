@@ -47,30 +47,56 @@
       }
     </style>
     <!-- Script dosyanı buraya bağlıyoruz (Hangi JS dosyasındaysan adını ona göre ayarlayabilirsin) -->
-    <script src="dom.js" defer></script>
+    <script src="todo.js" defer></script>
   </head>
   <body>
     <div class="bilgi-karti">
-      <h1 id="baslik">🚀 JavaScript Çalışma Alanı</h1>
-      <p>
-        Bu sayfadaki kodlar arka planda çalışmaktadır. Sonuçları, hataları ve
-        alıştırma çıktılarını görmek için klavyeden <kbd>F12</kbd> tuşuna basın
-        ve <strong>Console (Konsol)</strong> sekmesini açın.
-      </p>
-      <button
-        id="renkDegistirBtn"
+      <h1>📝 Yapılacaklar Listesi (Todo App)</h1>
+      <p>Yapılacak yeni bir görev ekleyin ve gününüzü planlayın.</p>
+
+      <!-- Görev Giriş Alanı -->
+      <div style="margin: 20px 0">
+        <input
+          type="text"
+          id="gorevInput"
+          placeholder="Yeni görev yazın..."
+          style="
+            padding: 10px;
+            width: 60%;
+            border-radius: 8px;
+            border: 1px solid #475569;
+            background: #1e293b;
+            color: white;
+          "
+        />
+        <button
+          id="ekleBtn"
+          style="
+            padding: 10px 20px;
+            background: #38bdf8;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #0f172a;
+          "
+        >
+          Ekle
+        </button>
+      </div>
+
+      <!-- Görevlerin Listeleneceği Alan -->
+      <ul
+        id="gorevListesi"
         style="
-          padding: 10px 20px;
-          background: #38bdf8;
-          border: none;
-          border-radius: 8px;
-          font-weight: bold;
-          cursor: pointer;
+          list-style-type: none;
+          padding: 0;
+          text-align: left;
           margin-top: 15px;
         "
       >
-        Rengi Değiştir
-      </button>
+        <!-- JavaScript ile buraya dinamik görevler eklenecek -->
+      </ul>
     </div>
   </body>
 </html>

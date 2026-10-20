@@ -114,3 +114,10 @@
   - `element.style.color`: JavaScript üzerinden CSS stillerine müdahale etme.
 - **Olay Dinleyicileri (Event Listeners):**
   - `element.addEventListener("click", () => { ... })`: Kullanıcının tıklama gibi etkileşimlerini dinleyip fonksiyon tetikleme.
+
+### 🏆 6. Görev (Final Projesi): Yapılacaklar Listesi / Todo App (`todo.js` & `index.html`)
+
+- **Dinamik Element Oluşturma:** `document.createElement("li")` ve `document.createElement("button")` ile kod üzerinden HTML elemanları üretme.
+- **DOM Ekleme ve Kaldırma:** `appendChild()` ile listeye eleman ekleme, `remove()` ile silme.
+- **Kullanıcı Etkileşimi:** Input değerlerini `.value` ile okuma, `.trim()` ile boşlukları temizleme ve `.focus()` ile odaklanma yönetimi.
+- **Olay Dinleyicileri (Event Listeners):** Buton tıklamalarına (`click`) duyarlı interaktif akış kurma.
