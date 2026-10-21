@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Görev 2 - DOM Olayları (Events)</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="olaylar.js" defer></script>
+  </head>
+  <body>
+    <div class="kapsayici">
+      <h1>Olay Dinleyicileri (Event Listeners)</h1>
+
+      <!-- İnput Olayı İçin Alan -->
+      <div class="bolum">
+        <input
+          type="text"
+          id="kullaniciInput"
+          placeholder="Bir şeyler yazın..."
+        />
+        <p>Yazdığınız metin: <span id="canliMetin">...</span></p>
+      </div>
+
+      <!-- Fare Olayı İçin Kutu -->
+      <div id="etkilesimKutusu" class="kutu">
+        Üzerime Fareyi Getir veya Tıkla!
+      </div>
+    </div>
+  </body>
+</html>
