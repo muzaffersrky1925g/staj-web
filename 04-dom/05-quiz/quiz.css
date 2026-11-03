@@ -1,0 +1,70 @@
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.kapsayici {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  width: 380px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.soru {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.secenekler {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.secenek {
+  background-color: #334155;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.secenek:hover {
+  background-color: #0ea5e9;
+}
+
+.gizli {
+  display: none;
+}
+
+#tekrarBaslaBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #34d399;
+  color: #0f172a;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#tekrarBaslaBtn:hover {
+  background-color: #10b981;
+}
